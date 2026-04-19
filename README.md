@@ -91,4 +91,22 @@ Test APIs using browser or Postman:
 - Authentication (JWT)  
 - Deployment (Render / Railway)  
 - Pagination for large datasets  
-- Role-based access control  
+- Role-based access control
+
+---
+
+## 🧠 Key Learnings
+
+- Implemented analytics queries using window functions
+- Optimized query performance using indexing and EXPLAIN ANALYZE
+- Integrated Redis caching with TTL to reduce database load
+- Designed scalable backend APIs with dynamic filtering
+
+---
+
+## 📁 Project Structure
+
+index.js → API routes  
+db.js → PostgreSQL connection  
+redis.js → Redis connection  
+queries/analytics.js → SQL logic  
